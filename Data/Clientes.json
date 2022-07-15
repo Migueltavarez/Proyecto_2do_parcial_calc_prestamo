@@ -1,0 +1,115 @@
+{
+    "Clientes": [
+        {
+            "Nombre": "Daniel",
+            "ID": 0,
+            "Prestamos": [
+                {
+                    "ID": 0,
+                    "Estado": "CANCELADO",
+                    "Monto": 100000.0,
+                    "Monto_Restante": -3000.0,
+                    "Historial": [
+                        "El 2022-07-15 Daniel abono 100000.0",
+                        "El 2022-07-15 Daniel abono 2000.0",
+                        "El 2022-07-15 Daniel abono 1000.0"
+                    ],
+                    "Plazo": 2,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 4.0
+                },
+                {
+                    "ID": 1,
+                    "Estado": "CANCELADO",
+                    "Monto": 170000.0,
+                    "Monto_Restante": 170000.0,
+                    "Historial": [],
+                    "Plazo": 5,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 0.56
+                },
+                {
+                    "ID": 2,
+                    "Estado": "CANCELADO",
+                    "Monto": 100000.0,
+                    "Monto_Restante": 60000.0,
+                    "Historial": [
+                        "El 2022-07-15 Daniel abono 20000.0",
+                        "El 2022-07-16 Daniel abono 20000.0"
+                    ],
+                    "Plazo": 5,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 0.25
+                },
+                {
+                    "ID": 4,
+                    "Estado": "ACTIVO",
+                    "Monto": 200000.0,
+                    "Monto_Restante": 200000.0,
+                    "Historial": [],
+                    "Plazo": 7,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 0.79
+                }
+            ]
+        },
+        {
+            "Nombre": "Miguel",
+            "ID": 1,
+            "Prestamos": [
+                {
+                    "ID": 3,
+                    "Estado": "ACTIVO",
+                    "Monto": 250000.0,
+                    "Monto_Restante": 250000.0,
+                    "Historial": [],
+                    "Plazo": 4,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 8.0
+                }
+            ]
+        },
+        {
+            "Nombre": "Stiven",
+            "ID": 2,
+            "Prestamos": [
+                {
+                    "ID": 5,
+                    "Estado": "ACTIVO",
+                    "Monto": 1320000.0,
+                    "Monto_Restante": 120000.0,
+                    "Historial": [],
+                    "Plazo": 10,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 10.0
+                }
+            ]
+        },
+        {
+            "Nombre": "Stiven",
+            "ID": 2,
+            "Prestamos": [
+                {
+                    "ID": 5,
+                    "Estado": "ACTIVO",
+                    "Monto": 1320000.0,
+                    "Monto_Restante": 120000.0,
+                    "Historial": [],
+                    "Plazo": 10,
+                    "fecha_creacion": "2022-07-15",
+                    "TazaDeInteres": 10.0
+                },
+                {
+                    "ID": 6,
+                    "Estado": "ACTIVO",
+                    "Monto": 12500.0,
+                    "Monto_Restante": 12500.0,
+                    "Historial": [],
+                    "Plazo": 3,
+                    "fecha_creacion": "2022-07-16",
+                    "TazaDeInteres": 0.25
+                }
+            ]
+        }
+    ]
+}
